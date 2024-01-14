@@ -6,7 +6,6 @@
       :name="item.name"
       :status="item.status"
       :key="item.id"
-      @change="change"
     />
   </table>
   <AddCase @add="add"/>
