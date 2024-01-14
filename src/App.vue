@@ -7,7 +7,6 @@
       :status="item.status"
       :key="item.id"
       @change="change"
-      @remove="remove"
     />
   </table>
   <AddCase @add="add"/>
